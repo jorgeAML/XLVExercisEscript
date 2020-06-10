@@ -15,5 +15,10 @@ function one (parameter) {
 one(34);
 
 function two (parameter) {
-	var formula = 
+	var formula = parameter / 10
+	if (parameter != null) {
+		console.log("El 10% de 15 enteros 2/5");
+		console.log(formula);
+	}
 }
+two(15.4);
