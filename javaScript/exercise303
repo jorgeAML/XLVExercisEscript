@@ -101,3 +101,55 @@ function ten (entero, denominador, numerador) {
 	}
 }
 ten(56, 6, 1);
+
+//2%
+function eleven (denominador, numerador) {
+	var convert = numerador / denominador;
+	var convertT = convert / 50;
+	
+	if (convertT != null) {
+		console.log("2% de 1/2");
+			console.log(convertT);
+	}
+}
+eleven(2, 1);
+
+function twelve (numerador, denominador) {
+	var one = numerador / denominador;
+	var formula = one / 20;
+	if (formula != null) {
+		console.log("5% de 3/4");
+			console.log(formula);
+	}
+}
+twelve(3,4);
+
+function therteen (numerador, denominador) {
+	var one = numerador / denominador;
+	var formula = one / 25;
+	if (formula != null) {
+		console.log("4% de 1/50");
+			console.log(formula);
+	}
+}
+therteen(1,50);
+function fourteen (number) {
+	var one = (number / 4);
+	var formula = one * 3;
+	if (formula != null) {
+		console.log("75% de 14324");
+			console.log(formula);
+	}
+}
+fourteen(14324);
+
+function fifteen (entero, numerador, denominador) {
+	var one = (entero * denominador) + numerador;
+	var two = one / denominador;
+	var formula = two / 10;
+	if ( formula != null) {
+		console.log("10% de 15 3/4");
+			console.log(formula);
+	}
+}
+fifteen(15,3,4);
