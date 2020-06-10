@@ -1,0 +1,19 @@
+//tanto por ciento
+//hallar por simple inspeccion
+
+function one (parameter) {
+	
+	if (parameter >= 0 && parameter <= 9999) {
+		var formula = parameter / 100
+		console.log("Introduce cualquier numero para calcular su 1%");
+		
+		console.log(parameter + " = " + formula);
+		console.log(formula);
+	}
+	
+}
+one(34);
+
+function two (parameter) {
+	var formula = 
+}
