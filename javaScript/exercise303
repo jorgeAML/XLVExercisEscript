@@ -49,3 +49,55 @@ function five (parameter) {
 	}
 }	
 five(95.6);
+
+//for 60%
+function six (parameter) {
+	var formula = (parameter / 5) * 3;
+	if ( parameter != null ) {
+		console.log("60% de 23455");
+			console.log(formula);
+	}
+}
+six(23455);
+
+//for 80%
+function seven (parameter) {
+	var formula = (parameter / 5 ) * 4;
+	if (parameter != null) {
+		console.log("80% de 134.65");
+			console.log(formula);
+	}
+}
+seven(134.65);
+
+//for 16 2/3%
+function eigth (parameter) {
+	var formula = (parameter)/6;
+	if (parameter != null) {
+		console.log("16 2/3% de 1914");
+			console.log(formula);
+	}
+}
+eigth(1914);
+
+//for 12 1/2%
+function nine (parameter) {
+	var formula = (parameter) / 8;
+	if ( parameter != null ) {
+		console.log("12 1/2% de 4 4/5");
+			console.log(formula);
+	}
+}
+nine(4.8);
+
+//for 50%
+function ten (entero, denominador, numerador) {
+	var convert = (entero * denominador) + numerador;
+	var convertA = (convert / denominador);
+	var formula = (convertA) / 2;
+	if (formula != null) {
+		console.log("50% de 56 1/6");
+			console.log(formula);
+	}
+}
+ten(56, 6, 1);
