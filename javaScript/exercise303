@@ -22,3 +22,30 @@ function two (parameter) {
 	}
 }
 two(15.4);
+
+function three (parameter) {
+	var formula = parameter / 5;
+	if (parameter != null) {
+		console.log("El 20% de 1612");
+			console.log(formula);
+	}
+}
+three(1612);
+
+function four (parameter) {
+	var formula = (parameter / 4) * 3;
+	if (parameter != null) {
+		console.log("El 75% de 18.16");
+			console.log(formula);
+	}
+}
+four(18.16);
+
+function five (parameter) {
+	var formula = parameter / 20;
+	if (parameter != null) {
+		console.log("El 5% de 95.6");
+			console.log(formula);
+	}
+}	
+five(95.6);
