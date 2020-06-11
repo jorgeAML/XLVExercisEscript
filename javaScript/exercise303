@@ -153,3 +153,101 @@ function fifteen (entero, numerador, denominador) {
 	}
 }
 fifteen(15,3,4);
+
+function sixteen (numerador, denominador) {
+	var one = numerador / denominador;
+	var formula = one / 3;
+	if (formula != null) {
+		console.log("33 1/3% de 1/3");
+		console.log(formula);
+	}
+}
+sixteen(1,3);
+
+function seventeen (entero, numerador, denominador) {
+	var one = (entero * denominador) + numerador;
+	var two = one / denominador;
+	var formula = two / 5;
+		if (formula != null) {
+			console.log("20% de 108 1/2");
+				console.log(formula);
+		}
+}
+seventeen(108, 1, 2);
+
+function eighteen (number) {
+	var formula = (number / 5) * 2;
+	if(formula != null) {
+		console.log("40% de 18745");
+			console.log(formula);
+	}
+}
+eighteen(18745);
+
+function nineteen (entero, numerador, denominador) {
+	var one = (entero * denominador) + numerador;
+	var two = one / denominador;
+	var formula = two / 3;
+		if(formula != null) {
+			console.log("33 1/3% de 3 1/3");
+				console.log(formula);
+		}
+}
+nineteen(3, 1, 3);
+
+function twenty (number) {
+	var one = number / 6;
+	if (one != null) {
+		console.log("16 2/3% de 1650");
+			console.log(one);
+	}
+}
+twenty(1650);
+
+function twentyOne (entero, numerador, denominador) {
+	var one = (entero * denominador) + numerador;
+	var two = one / denominador;
+	var formula = two / 25;
+		if (formula != null) {
+			console.log("4% de 300 1/3");
+				console.log(formula);
+		}
+}
+twentyOne(300, 1, 5);
+
+function twentyTwo (number) {
+	var one = number / 20;
+	if (one != null){
+		console.log("5% de 108.5");
+			console.log(one);
+	}
+}
+twentyTwo(108.50);
+
+function twentyThree (number) {
+	var one = number / 4;
+	if(one != null) {
+		console.log("25% de 56.84");
+			console.log(one);
+	}
+}
+twentyThree(56.84);
+
+function twentyFour (number) {
+	var one = number / 2;
+		if(one != null) {
+			console.log("50% de 108.88");
+				console.log(one);
+		}
+}
+twentyFour(108.88);
+
+function twentyFive (numerador, denominador) {
+	var one = numerador / denominador;
+	var formula = (one / 4 ) * 3;
+	if(formula != null){
+		console.log("75% de 1/75");
+		console.log(formula);
+	}
+}
+twentyFive(1,75);
