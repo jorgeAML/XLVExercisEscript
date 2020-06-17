@@ -31,3 +31,17 @@ function ejercicio4 (a, b) {
 	return 0;
 }
 ejercicio4(420, 36);
+//nivel5
+//850 de 72%
+function ejercicio5 (a, b) {
+	numero = a;
+	tantoP = b;
+	var condicion = a >= 0 & a <= 9999 & b >= 0 & b <= 9999;
+		if (condicion) {
+			var formula = (numero * porcentaje) / tantoP;
+				console.log(formula);
+		} else {
+			console.log(false);
+		}
+}
+ejercicio5(123000, -12312);
