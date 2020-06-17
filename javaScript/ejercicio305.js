@@ -14,3 +14,11 @@ function ejercicio2 () {
 	console.log(formula);
 }
 ejercicio2();
+
+//Nivel3
+//115 de 82%
+function ejercicio3 (a, b){
+	var formula = (a * porcentaje) / b;
+	console.log(formula);
+}
+ejercicio3(115, 82);
