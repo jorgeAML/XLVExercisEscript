@@ -78,3 +78,30 @@ function ejercicio11 (a, b, c, d) {
 		}
 }
 ejercicio11(70, 3, 1, 2);
+//nivel 8 
+//Varios ejercicios usando objetos y Arrays.
+function ejercicio8 () {
+	var datos = [
+	{numero: 50, numerador: 2, denominador: 5},
+		{numero:95, numerador: 3, denominador: 5}
+	];
+	var a8 = datos[0].numero;
+	var b8 = datos[0].numerador;
+	var c8 = datos[0].denominador;
+	
+	var d8 = datos[1].numero;
+	var e8 = datos[1].numerador;
+	var f8 = datos[1].denominador;
+	
+	var formula = (a8 * porcentaje) / (b8 / c8);
+	var formulaB = (d8 * porcentaje) / (e8 / f8);
+	
+	if (formula != null || formulaB != null) {
+		console.log(formula);
+		console.log(formulaB);
+	} else {
+		console.log(false);
+	}
+	
+}
+ejercicio8();
