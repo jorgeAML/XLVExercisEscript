@@ -69,6 +69,53 @@ function specialCase (a) {
 			return false;
 		}
 		
+		if (datos[2].e7 == 3) {
+			let formula = datos[2].e7 * 5;
+				console.log("De que numero es 3 el 20%");
+					console.log(formula);
+		} else {
+			return false;
+		}
+		
+		if (datos[2].e8 == 7){
+			let formula = datos[2].e8 * 4;
+				console.log("De que numero es 7 el 25%");
+					console.log(formula);
+		} else {
+			return false;
+		}
+		
+		if (datos[2].e9 == 11) {
+			let formula = datos[2].e9 * 6;
+				console.log("De que numero es 11 el 6 2/3%");
+					console.log(formula);
+		} else {
+			return false;
+		}
+		
+		if ( datos[3].e10 == 15) {
+			let formula = datos[3].e10 * 3;
+				console.log("De que numero es 15 el 33 1/3%");
+					console.log(formula);
+		} else { 
+			return false;
+		}
+		
+		if (datos[3].e11 == 10 ) {
+			let formula = (datos[3].e11 * 5) / 2;
+				console.log("De que numero es 10 el 40%");
+					console.log(formula);
+		} else {
+			return false;
+		}
+		
+		if (datos[3].e12 == 15) {
+			let formula = (datos[3].e12 * 5) / 3;
+				console.log("De que numero es 15 el 60%");
+					console.log(formula);
+		} else {
+			return false;
+		}
 		
 		
 }
