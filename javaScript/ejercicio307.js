@@ -12,7 +12,7 @@ function guest (a, b) {
 console.log("Calculando...");
 function respond () {
 	guest(8400, 2940);
-	console.log("----------------");
+	console.log("*----------------*");
 }
 
 var t = setTimeout(respond, 1000);
@@ -33,7 +33,7 @@ function ej1 (a, b) {
 }
 function respon1 () {
 	ej1(860, 129);
-	console.log("----------------");
+	console.log("*----------------*");
 }
 var t1 = setTimeout(respon1, 1500);
 
@@ -48,7 +48,7 @@ function ej2 (a, b) {
 }
 function respond2 () {
 	ej2(95, 30.4);
-	console.log("----------------");
+	console.log("*----------------*");
 }
 var r2 = setTimeout(respond2, 2000);
 
@@ -63,7 +63,25 @@ function ej3 (a, b) {
 }
 function respond3 () {
 	ej3(1250, 75);
+	console.log("*----------------*");
 }
 var r3 = setTimeout(respond3, 2500);
+
+function ej4 (a, b) {
+	if(a > 0 && a <= 9999 && b > 0 && b <= 9999) {
+		let formula = (b * oneHundred) / a;
+			console.log("Que % de " + a + " es " + b + ".");
+				console.log(formula);
+	} else {
+		return false;
+	}
+}
+function respond4 () {
+	ej4(1950, 156);
+	console.log("*----------------*");
+}
+var r4 = setTimeout(respond4, 3000);
+
+
 
 
