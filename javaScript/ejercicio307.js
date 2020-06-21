@@ -83,5 +83,20 @@ function respond4 () {
 var r4 = setTimeout(respond4, 3000);
 
 
+function ej5 (a, b) {
+	if (a > 0 && a <= 9999 && b > 0 && b <= 9999) {
+		let formula = (b * oneHundred) / a;
+			console.log("Que % de " + a + " es " + b + ".");
+				console.log(formula);
+	} else {
+		return false;
+	}
+}
+function respond5 () {
+	ej5(815, 431.95);
+	console.log("*----------------*");
+}
+var t5 = setTimeout(respond5, 3500);
+
 
 
