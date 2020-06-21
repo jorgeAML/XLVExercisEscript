@@ -27,6 +27,8 @@ function ej1 (a, b) {
 			console.log("Que % de " + a + " es " + b + ".");
 				console.log(formula);
 		
+	} else {
+		return false;
 	}
 }
 function respon1 () {
@@ -35,4 +37,17 @@ function respon1 () {
 }
 var t1 = setTimeout(respon1, 1500);
 
-
+function ej2 (a, b) {
+		if (a > 0 && a <= 9999 && b > 0 && b <= 9999) {
+			let formula = (b * oneHundred)/a;
+				console.log("Que % de " + a + " es " + b + ".");
+					console.log(formula);
+		} else {
+			return false;
+		}
+}
+function respond2 () {
+	ej2(95, 30.4);
+	console.log("----------------");
+}
+var r2 = setTimeout(respond2, 2000);
