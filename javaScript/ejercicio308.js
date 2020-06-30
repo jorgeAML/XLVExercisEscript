@@ -49,4 +49,21 @@ function respond2 () {
 	ejercicio2(9, 33, 1, 3);
 		console.log("------------------------");	
 };
-var ej2 = setTimeout(respond2, 1500);
+var ej2 = setTimeout(respond2, 2000);
+//¿Qué porcentaje de 12 es 3?
+function ejercicio3 (a, b) {
+	if (a != null || b != null) {
+		let formula = (b * porcentaje) / a;
+		let des = "¿Qué porcentaje de " + a + " es " + b + "?";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond3 () {
+	ejercicio3(12,3);
+	console.log("------------------------");	
+}
+var ej3 = setTimeout(respond3, 3000);
+
