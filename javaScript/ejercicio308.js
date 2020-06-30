@@ -82,3 +82,19 @@ function respond4 () {
 	console.log("------------------------");	
 };
 var ej4 = setTimeout(respond4, 4000);
+//¿Qué porcentaje de 18 es 6?
+function ejercicio5 (a, b) {
+	if (a != null && b != null) {
+		let formula = (b * porcentaje) / a;
+		let des = "¿Qué porcentaje de " + a + " es " + b + "?";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond5() {
+	ejercicio5(18,6);
+	console.log("------------------------");	
+};
+var ej5 = setTimeout(respond5, 5000);
