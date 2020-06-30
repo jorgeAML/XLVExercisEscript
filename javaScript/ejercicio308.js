@@ -30,6 +30,7 @@ function respond1 () {
 }
 var ej1 = setTimeout(respond1, 1000);
 //var int = setInterval(respond1, 500);
+
 //¿Qué porcentaje de 9 es 33 1/3?
 function ejercicio2 (a, b, c, d){
 	numero = a;
@@ -66,7 +67,7 @@ function respond3 () {
 	console.log("------------------------");	
 }
 var ej3 = setTimeout(respond3, 3000);
-/¿Qué porcentaje de 15 es 3?
+//¿Qué porcentaje de 15 es 3?
 function ejercicio4 (a,b) {
 	if (a != null || b != null) {
 		let formula = (b * porcentaje) / a;
@@ -130,3 +131,66 @@ function respond7 () {
 	console.log("------------------------");
 };
 var ej7 = setTimeout(respond7, 7000);
+//¿Qué porcentaje de 18 es 9?
+function ejercicio8 (a,b){
+	if (a != null || b != null) {
+		let formula = (b * porcentaje) / a;
+		let des = "¿Qué porcentaje de " + a + " es " + b + "?";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond8 () {
+	ejercicio8(18,9);
+	console.log("------------------------");
+};
+var ej8 = setTimeout(respond8, 8000);
+//¿Qué porcentaje de 8 es 6?
+function ejercicio9 (a,b) {
+	if (a != null || b != null) {
+		let formula = (b * porcentaje) / a;
+		let des = "¿Qué porcentaje de " + a + " es " + b + "?";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	};
+};
+function respond9 (){
+	ejercicio9(8,6);
+	console.log("------------------------");
+};
+var ej9 = setTimeout(respond9, 9000);
+//¿Qué porcentaje de 10 es 4?
+function ejercicio10 (a,b){
+	if (a != null || b != null) {
+		let formula = (b * porcentaje) / a;
+		let des = "¿Qué porcentaje de " + a + " es " + b + "?";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	};
+};
+function respond10 () {
+	ejercicio10(10,4);
+	console.log("------------------------");
+};
+var ej10 = setTimeout(respond10, 10000);
+//¿Qué porcentaje de 20 es 12?
+function ejercicio11 (a, b) {
+	if (a != null || b != null) {
+		let formula = (b * porcentaje) / a;
+			console.log("¿Qué porcentaje de " + a + " es " + b + "?");
+			console.log(formula);
+	} else {
+		console.log(false);
+	};
+};
+function respond11 () {
+	ejercicio11(20,12);
+	console.log("------------------------");
+};
+var ej11 = setTimeout(respond11, 11000);
