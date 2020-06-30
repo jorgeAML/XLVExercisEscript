@@ -66,4 +66,19 @@ function respond3 () {
 	console.log("------------------------");	
 }
 var ej3 = setTimeout(respond3, 3000);
-
+/¿Qué porcentaje de 15 es 3?
+function ejercicio4 (a,b) {
+	if (a != null || b != null) {
+		let formula = (b * porcentaje) / a;
+		let des = "¿Qué porcentaje de " + a + " es " + b + "?";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond4 () {
+	ejercicio4(15,3);
+	console.log("------------------------");	
+};
+var ej4 = setTimeout(respond4, 4000);
