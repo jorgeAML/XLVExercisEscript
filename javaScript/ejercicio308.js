@@ -30,3 +30,23 @@ function respond1 () {
 }
 var ej1 = setTimeout(respond1, 1000);
 //var int = setInterval(respond1, 500);
+//¿Qué porcentaje de 9 es 33 1/3?
+function ejercicio2 (a, b, c, d){
+	numero = a;
+	entero = b;
+	numerador = c;
+	denominador = d;
+	if (a != null || b!= null || c != null || d != null) {
+		let formula = ((((entero * denominador) + numerador) / denominador) * porcentaje) / numero;
+		let des = "¿Qué porcentaje de " + numero + " es " + entero + " " + numerador + "/" + denominador + "?";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond2 () {
+	ejercicio2(9, 33, 1, 3);
+		console.log("------------------------");	
+};
+var ej2 = setTimeout(respond2, 1500);
