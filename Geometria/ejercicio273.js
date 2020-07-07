@@ -7,6 +7,7 @@ const formulaTriangulo = 2;
 const cienCentimetros = 100;
 const milCentimetros = 1000;
 const diezCentimetros = 10;
+const varaCubanaMetros = 0.848;
 
 function ejercicio1 (a, b) {
 	if (a > 0 && a < 9999 || b > 0 && b < 9999) {
@@ -45,3 +46,22 @@ function respond2 () {
 	console.log("------------------------");
 };
 var ej2 = setTimeout(respond2, 1000);
+
+function ejercicio3 (a, b, c) {
+	if (a != null && b != null && c != null) {
+	//CONVERTIR LAS VARAS CUBANAS A METROS
+		let vC1 = a * varaCubanaMetros;
+		let vC2 = b * varaCubanaMetros;
+		let formula = ((vC1 * vC2) / formulaTriangulo) * c;	
+		let des = "¿Cuanto importara un pedazo triangular de tierra de " + a + " varas cubanas por " + b + " varas cubanas a " + c + " la ca.?" 	
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond3 () {
+	ejercicio3 (9, 6, 0.8);
+	console.log("------------------------");
+};
+var ej3 = setTimeout(respond3, 1500);
