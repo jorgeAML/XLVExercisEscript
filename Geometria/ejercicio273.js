@@ -65,3 +65,24 @@ function respond3 () {
 	console.log("------------------------");
 };
 var ej3 = setTimeout(respond3, 1500);
+
+function ejercicio4 (a, b, c, d) {
+	if (a != null && b != null && c != null && d != null) {
+		//CONVERTIR A METROS CUADRADOS
+		let c1 = a / diezCentimetros;
+		let c2 = c / diezCentimetros;
+		let formula = (c1 * (b + c2)) / formulaTriangulo;
+		//CONVERTIR A VARAS CUADRADAS
+		let c3 = formula / Math.pow(varaCubanaMetros, 2); 
+		let formulaF = (c3 * d) * 100;
+		//MULTIPLICADO POR CIEN SERA UN MARGEN DE ERROR
+		let des = "¿Cuantó importará un solar triangular de " + a + "dms" + " de base por " + b + "ms " +  c + "dms" + " de altura a $" + d + " la vara cuadrada cubana?"; 
+			console.log(des);
+			console.log(formulaF);
+	} else {
+		console.log(false);
+	}
+};
+function respond4 () {
+	ejercicio4(9, 30, 6, 1.25);
+	console.log("-------------------------");
