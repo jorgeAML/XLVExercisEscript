@@ -86,3 +86,26 @@ function ejercicio4 (a, b, c, d) {
 function respond4 () {
 	ejercicio4(9, 30, 6, 1.25);
 	console.log("-------------------------");
+};
+var ej4 = setTimeout(respond4, 2000);
+
+function ejercicio5 (a ,b) {
+	if (a != null && b != null) {
+		/*CONVERTIR DE YARDAS A METROS*/
+		let cordel = 20.352;
+		let yarda = 1.0936;
+		let formula = ((a * cordel) * (b / yarda)) / formulaTriangulo;
+		/*HALLAR EN AREA LA SUPERFICIE*/
+		let formulaF = formula / 100;
+		let des = "Hallar en áreas la superficie de un triangulo cuya base es " + a + " cordeles y su altura " + b + " yardas."; 
+			console.log(des);
+			console.log(formulaF);
+	} else {
+		console.log(false);
+	}
+};
+function respond5 () {
+	ejercicio5(3, 50);
+	console.log("--------------------------");
+};
+var ej5 = setTimeout(respond5, 2500);
