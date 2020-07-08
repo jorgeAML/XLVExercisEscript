@@ -109,3 +109,23 @@ function respond5 () {
 	console.log("--------------------------");
 };
 var ej5 = setTimeout(respond5, 2500);
+
+function ejercicio6 (a, b) {
+	if (a != null && b != null) {
+		let formula = (a * b) / formulaTriangulo;
+		let formulaA = Math.pow(varaCubanaMetros, 2);
+		let formulaB = Math.fround(formula / formulaA);
+		let resA = Math.round(formulaB);
+		let des = "Los catetos de un triángulo rectángulo miden " + a + " y " + b + " ms respectivamente, hallar su área en varas cubanas cuadradas";
+			console.log(des);
+			console.log(formulaB);
+			console.log(resA);
+	} else {
+		console.log(false);
+	}
+};
+function respond6 () {
+	ejercicio6 (5, 6);
+	console.log("----------------------------");
+};
+var ej6 = setTimeout(respond6, 3000);
