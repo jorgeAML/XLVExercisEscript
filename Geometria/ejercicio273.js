@@ -129,3 +129,19 @@ function respond6 () {
 	console.log("----------------------------");
 };
 var ej6 = setTimeout(respond6, 3000);
+function ejercicio7 (a, b, c, d) {
+	if (a != null & b != null && c != null && d != null) {
+		let formulaA = (a / b) * 100;
+		let formulaB = (c / d) * 1000;
+		let formulaC = (Math.imul(formulaA, formulaB)) / formulaTriangulo;
+		let des = "La base de un triángulo es " + a + "/" + b + " Hm. Y su altura " + c + "/" + d + " Km. Expresar la superficie en complejo métrico decimal";
+		console.log(des);
+		console.log(formulaC);
+	}
+}
+
+function respond7 () {
+	ejercicio7(1,2,3,8);
+	console.log('----------------------------');
+};
+var ej7 = setTimeout(respond7, 3500);
