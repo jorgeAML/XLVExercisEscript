@@ -162,3 +162,17 @@ function respond8 () {
 	console.log('----------------------------');
 };
 var ej8 = setTimeout(respond8, 4000);
+function ejercicio9 (a,b,c) {
+	if (a != null & b != null & c != null ) {
+		let convert = c / 100;
+		let formula = (a * (b + convert));
+		let des = "La base de un rectángulo es " + a + "ms y la altura " + b + "ms. " + c + "cms. Expresar su área en complejo";
+			console.log(des);
+			console.log(formula);
+	}
+};
+function respond9 () {
+	ejercicio9 (5, 2, 5);
+	console.log('-----------------------------');
+};
+var ej9 = setTimeout(respond9, 4500);
