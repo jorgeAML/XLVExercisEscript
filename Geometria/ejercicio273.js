@@ -176,3 +176,18 @@ function respond9 () {
 	console.log('-----------------------------');
 };
 var ej9 = setTimeout(respond9, 4500);
+function ejercicio10 (a,b,c) {
+	if (a != null & b != null & c != null) {
+		let AB = c / 100;
+		let AC = a * varaCubanaMetros;
+		let formula = (AC * (b + AB));
+		let des = "Expresar en Complejo el área de un romboide cuya altura es " + a + " vara cubana y la base " + b + "ms. " + c + "cms.";
+			console.log(des);
+			console.log(formula);
+	}
+};
+function respond10 () {
+	ejercicio10 (1, 6, 3);
+	console.log("------------------------------");
+};
+var ej10 = setTimeout(respond10, 5000);
