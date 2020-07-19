@@ -8,6 +8,8 @@ const cienCentimetros = 100;
 const milCentimetros = 1000;
 const diezCentimetros = 10;
 const varaCubanaMetros = 0.848;
+/*cordeles a metros*/
+const corAM = 20.352;
 
 function ejercicio1 (a, b) {
 	if (a > 0 && a < 9999 || b > 0 && b < 9999) {
@@ -145,3 +147,18 @@ function respond7 () {
 	console.log('----------------------------');
 };
 var ej7 = setTimeout(respond7, 3500);
+function ejercicio8 (a, b) {
+	if (a != null && b != null) {
+		let cordeles = Math.imul(a, corAM);
+		let varasCubanas = Math.fround(b * varaCubanaMetros);
+		let formula = ((Math.fround(cordeles * varasCubanas)) / formulaTriangulo);
+		let des = "Uno de los catetos de un triángulo rectángulo mide " + a + " cordeles y el otro " + b + " varas cubanas. Expresar su superficie en complejo Métrico decimal";
+			console.log(des);
+			console.log(formula);
+	}
+}
+function respond8 () {
+	ejercicio8 (3,6);
+	console.log('----------------------------');
+};
+var ej8 = setTimeout(respond8, 4000);
