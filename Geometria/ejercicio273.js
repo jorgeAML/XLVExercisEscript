@@ -207,3 +207,17 @@ function respond11 () {
 	console.log("--------------------------------");
 };
 var ej11 = setTimeout(respond11, 5500);
+function ejercicio12 (a) {
+	if (a != null) {
+		let convert = a * varaCubanaMetros;
+		let formula = Math.pow(convert, 2) / 2;
+		let des = "¿Cuál es en metros cuadrados, la superficie de una cuadrado cuya diagonal mide " + a + " varas cubanas";
+			console.log(des);
+			console.log(formula);
+	}
+};
+function respond12 () {
+	ejercicio12(8);
+	console.log("-----------------------------------");
+};
+var ej12 = setTimeout(respond12, 6000);
