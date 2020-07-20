@@ -191,3 +191,19 @@ function respond10 () {
 	console.log("------------------------------");
 };
 var ej10 = setTimeout(respond10, 5000);
+function ejercicio11 (a,b) {
+	if (a != null & b != null) {
+		let convert = b / 100;
+		let convertA = a + convert;
+		let formula = Math.pow(convertA, 2);
+		let des = "Hallar la superficie de una lamina cuadrada de " + a + "m " + b + " cms de lado";
+			console.log(des);
+			console.log(formula);
+	}
+}
+
+function respond11 () {
+	ejercicio11 (1, 20);
+	console.log("--------------------------------");
+};
+var ej11 = setTimeout(respond11, 5500);
