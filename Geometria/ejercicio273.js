@@ -221,3 +221,18 @@ function respond12 () {
 	console.log("-----------------------------------");
 };
 var ej12 = setTimeout(respond12, 6000);
+function ejercicio13 (a,b,c) {
+	if (a != null & b != null & c != null) {
+		let convert = b / milCentimetros;
+		let convertB = c * yarAM;
+		let formula = (a + convert) * convertB;
+		let des = "Expresar en Complejo Metrico Decimal el área de un rombo cuya base es " + a + "ms " + b + "mms. Y su altura " + c + " yardas";
+			console.log(des);
+			console.log(formula);
+	}
+};
+function respond13 () {
+	ejercicio13 (8,5,6);
+	console.log("-----------------------------------");
+};
+var ej13 = setTimeout(respond13, 6500);
