@@ -270,3 +270,18 @@ function respon15 () {
     console.log("---------------------");
 };
 var ej15 = setTimeout(respon15, 1000);
+function ejercicio16 (a,b,c) {
+		if (a != null & b != null & c != null) {
+			let formula = ((a + b) / 2 ) * c;
+			let des = "Las bases de un trapecio son " + a + " y " + b + "ms y su altura " + c + "ms hallar su área";
+				console.log(des);
+				console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond16 () {
+	ejercicio16 (12,15,6);
+	console.log("------------------------------");
+};
+var ej16 = setTimeout(respond16, 1500);
