@@ -236,3 +236,20 @@ function respond13 () {
 	console.log("-----------------------------------");
 };
 var ej13 = setTimeout(respond13, 6500);
+function ejercicio14 (a,b,c) {
+	if (a != null & b != null & c != null) {
+		let convert = b / cienCentimetros;
+		let convertB = c / cienCentimetros;
+		let formula = ((a + convert) * convertB) / formulaTriangulo;
+		let des = "Las diagonales de un rombo miden " + a + "ms, " + b + "dms y " + c + "cms respectivamente. Expresar su área en complejo Métrico Decimal";
+			console.log(des);
+			console.log(formula);
+			console.log(Math.fround(formula));
+			console.log(Math.ceil(formula));
+	}
+};
+function respond14 () {
+	ejercicio14(5,4,300);
+	console.log("----------------------------------");
+};
+var ej14 = setTimeout(respond14, 7000);
