@@ -10,6 +10,8 @@ const diezCentimetros = 10;
 const varaCubanaMetros = 0.848;
 /*cordeles a metros*/
 const corAM = 20.352;
+/*vara espanola*/
+const varaEspanola = 0.836;
 
 function ejercicio1 (a, b) {
 	if (a > 0 && a < 9999 || b > 0 && b < 9999) {
@@ -269,7 +271,7 @@ function respon15 () {
     ejercicio15 (1,2,1,4);
     console.log("---------------------");
 };
-var ej15 = setTimeout(respon15, 1000);
+var ej15 = setTimeout(respon15, 7500);
 function ejercicio16 (a,b,c) {
 		if (a != null & b != null & c != null) {
 			let formula = ((a + b) / 2 ) * c;
@@ -284,4 +286,23 @@ function respond16 () {
 	ejercicio16 (12,15,6);
 	console.log("------------------------------");
 };
-var ej16 = setTimeout(respond16, 1500);
+var ej16 = setTimeout(respond16, 8000);
+/*La semisuma de las bases de un trapecio es 40 varas cubanas y su altura 6ms. 8dms. Hallar su area en Ha*/
+function ejercicio17 (a,b,c) {
+	if (a != null & b != null & c != null) {
+		let convertA = c / 10;
+		let convert = b + convertA;
+		let convertB = a * 0.848;
+		let formula = (convert * convertB)/10000;
+		let des = "La semisuma de las bases de un trapecio es" + a + " varas cubanas y su altura " + b + "ms. " + c + "dms. Hallar su área en há";
+			console.log(des);
+			console.log(formula);
+	} else {
+		console.log(false);
+	}
+};
+function respond17 () {
+	ejercicio17 (40, 6, 8);
+	console.log("------------------------------");
+};
+var ej17 = setTimeout(respond17, 8500);
