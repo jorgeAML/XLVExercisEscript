@@ -253,3 +253,20 @@ function respond14 () {
 	console.log("----------------------------------");
 };
 var ej14 = setTimeout(respond14, 7000);
+function ejercicio15 (a,b,c,d) {
+    if (a != null & b != null & c != null & d != null) {
+        let convert = a / b;
+        let convertB = c / d;
+        let formula = (convert * varaEspanola) * (convertB * varaEspanola);
+        let des = "Expresar en complejo Metrico decimal la superficie de la tapa de una caja de tabacos rectangular que mide " + a + "/" + b + " vara española " + c + "/" + d + " de vara española";
+             console.log(des);
+            console.log(formula);
+    } else {
+        console.log(false);
+    }
+};
+function respon15 () {
+    ejercicio15 (1,2,1,4);
+    console.log("---------------------");
+};
+var ej15 = setTimeout(respon15, 1000);
