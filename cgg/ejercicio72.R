@@ -45,4 +45,12 @@ print(a10)
 a11 <- (2^4 * 5^2) / (5^0 * 4^2)
 print(a11)
 # [1] 25
+a <- 1
+b <- 1
+a12 <- 3^4 * a^0 / 9^2 * b^0
+if (a12 == 1) {
+    sprintf("RESPUESTA: %i", a12)
+    } else {
+      print("RESPUESTA INCORRECTA")
+}
 
