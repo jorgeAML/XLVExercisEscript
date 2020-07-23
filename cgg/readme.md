@@ -1,1 +1,1 @@
-# c++ math exercises
+# R math exercises
