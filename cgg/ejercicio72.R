@@ -67,4 +67,12 @@ if (a14 == 25) {
 } else {
     print("Al parecer tu respuesta es incorrecta")
 }
+# EJERCICIO 30
+a15 <- 3^3 * 2^2 - 3^0 * 4^0
+if (a15 == 107) {
+    sprintf("Tu respuesta correcta: %i", a15)
+ } else {
+    print("Al parecer tu respuesta es incorrecta")
+ }
+
 
