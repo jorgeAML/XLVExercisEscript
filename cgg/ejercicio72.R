@@ -60,4 +60,11 @@ if (a13 == 250) {
      } else {
      print("Incorrecto")
      }
+# EJERCICIO 30
+a14 <- 3^0 *(5^2/4^0)
+if (a14 == 25) {
+    sprintf("Tu respuesta es correcta: %i", a14)
+} else {
+    print("Al parecer tu respuesta es incorrecta")
+}
 
