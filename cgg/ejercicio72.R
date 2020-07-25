@@ -53,4 +53,11 @@ if (a12 == 1) {
     } else {
       print("RESPUESTA INCORRECTA")
 }
+# EJERCICIO 29
+a13 <- (5^5 * 2^3) / (10^2 * 5^0)
+if (a13 == 250) {
+    sprintf("Tu respuesta: %i", a13) 
+     } else {
+     print("Incorrecto")
+     }
 
