@@ -16,3 +16,5 @@ ejercicio1(750, 1250)
 # Introduce su diferencia primero (VARIABLE: a) y luego la sumatoria (VARIABLE: b)
 ejercicio1(9856, 45678)
 
+# El triplo de la suma de dos numeros es 1350 y el duplo de su diferencia es 700. Hallar los numeros:
+
