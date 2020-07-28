@@ -11,3 +11,8 @@ ejercicio1 <- function(a,b) {
       }
    }
 ejercicio1(750, 1250)
+
+# La suma de dos numeros es 45678 y su diferencia es 9856. Hallar los numeros
+# Introduce su diferencia primero (VARIABLE: a) y luego la sumatoria (VARIABLE: b)
+ejercicio1(9856, 45678)
+
