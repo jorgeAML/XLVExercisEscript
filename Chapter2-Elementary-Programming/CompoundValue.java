@@ -14,6 +14,21 @@
 */
 public class CompoundValue {
     public static void main(String[] args) {
-        
+        //we cannot use a loop in this exercise.
+        //prompt the user his month to calculate
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the monthly saving amount: ");
+        //make the variables
+        double amount = input.nextDouble();
+        final double RATE = 0.05;
+        final double MONTHRATE = 12;
+        //make the formula
+        final double MONTHLYINTEREST = RATE/MONTHRATE;
+        final double FORMULAONE = 1 + MONTHLYINTEREST;
+        double accountBecomes = 100 * FORMULAONE;
+        //After the second MONTH
+        double accountSecondMonth = (100 + accountBecomes) * (FORMULAONE);
+        //output his bank account
+        System.out.println("After the first month, the account value is: " + accountBecomes + "\n" + "Second Month: " + accountSecondMonth);
     }
 }
