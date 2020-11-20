@@ -25,9 +25,9 @@ public class CompoundValue {
         //make the formula
         final double MONTHLYINTEREST = RATE/MONTHRATE;
         final double FORMULAONE = 1 + MONTHLYINTEREST;
-        double accountBecomes = 100 * FORMULAONE;
+        double accountBecomes = amount * FORMULAONE;
         //After the second MONTH
-        double accountSecondMonth = (100 + accountBecomes) * (FORMULAONE);
+        double accountSecondMonth = (amount + accountBecomes) * (FORMULAONE);
         //output his bank account
         System.out.println("After the first month, the account value is: " + accountBecomes + "\n" + "Second Month: " + accountSecondMonth);
     }
