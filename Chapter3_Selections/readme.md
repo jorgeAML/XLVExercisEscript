@@ -13,4 +13,8 @@ Write a program that prompts the user to enter values for a, b, and c and displa
 Note that you can use Math.pow(x, 0.5) to compute the square of x. [find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/QuadracticEcuation.java)
 
 ---
+### 2.Game: add three numbers
+The program in Listing 3.1 AdditionQuiz.java, generates two integers and prompts the user to enter the sum of these two integers. Revise the program to generate three single-digit integers and prompt the user to enter the sum of these three integers. [find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/AddThreeNumbers.java)
+
+---
 
