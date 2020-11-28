@@ -18,7 +18,7 @@ The program in Listing 3.1 AdditionQuiz.java, generates two integers and prompts
 
 ---
 ### 3. Algebra: solve 2 X 2 linear equation
-A linear equation can be solved using Cramer's rule given in Programming Exercise 1.13 Write a program that prompts the user to enter a, b, c, d, e and f and displays the result. If *ad - bc* is 0, report that "The equation has no solution".
+A linear equation can be solved using Cramer's rule given in Programming Exercise 1.13 Write a program that prompts the user to enter a, b, c, d, e and f and displays the result. If *ad - bc* is 0, report that "The equation has no solution". [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/LinearEquation.java)
 
 ---
 
