@@ -17,4 +17,8 @@ Note that you can use Math.pow(x, 0.5) to compute the square of x. [find the ans
 The program in Listing 3.1 AdditionQuiz.java, generates two integers and prompts the user to enter the sum of these two integers. Revise the program to generate three single-digit integers and prompt the user to enter the sum of these three integers. [find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/AddThreeNumbers.java)
 
 ---
+### 3. Algebra: solve 2 X 2 linear equation
+A linear equation can be solved using Cramer's rule given in Programming Exercise 1.13 Write a program that prompts the user to enter a, b, c, d, e and f and displays the result. If *ad - bc* is 0, report that "The equation has no solution".
+
+---
 
