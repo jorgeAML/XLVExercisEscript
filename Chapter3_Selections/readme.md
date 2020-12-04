@@ -40,10 +40,10 @@ A shipping company uses the following function to calculate the cost (in dollars
 >   10.5, if 10 < w <= 20
 >}
 
-Write a program that prompts the user to enter the weight of the package and display the shipping cost. If the weight is greater than 50, display a message "The package cannot be shipped"
+Write a program that prompts the user to enter the weight of the package and display the shipping cost. If the weight is greater than 50, display a message "The package cannot be shipped" [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/CostOfShipping.java)
 
 ---
 ### 3.19 Compute the perimeter of a triangle
-Write a program that reads three edges for a triangle and computes the perimeter if the input is valid. Otherwise, display that the input is invalid. The input is valid if the sum of every pair of two edges is greater than the remaining edge.
+Write a program that reads three edges for a triangle and computes the perimeter if the input is valid. Otherwise, display that the input is invalid. The input is valid if the sum of every pair of two edges is greater than the remaining edge. [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/ComputePerimeterOfATriangle.java)
 
 ---
