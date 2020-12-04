@@ -25,5 +25,18 @@ A linear equation can be solved using Cramer's rule given in Programming Exercis
 Write a program that plays the popular scissor-rock-paper game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock). The program randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The program prompts the user to ente ra number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses or draws. Here are sample runs: [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/ScissorRockPaper.java)
 
 > scissor (0), rock (1), paper (2): 1 - The computer is scissor, You are rock. You won.
-
+>
 > scissor (0), rock (1), paper (2): 1 - The computer is paper, You are paper too. It is a draw.
+
+---
+### 3.18 Cost of Shipping
+A shipping company uses the following function to calculate the cost (in dollars) of shipping based on the weight of the package (in pounds).
+> c(w) = {
+>   3.5, if 0 < w <= 1
+>   5.5, if 1 < w <= 3
+>   8.5, if 3 < w <= 10
+>   10.5, if 10 < w <= 20
+>}
+Write a program that prompts the user to enter the weight of the package and display the shipping cost. If the weight is greater than 50, display a message "The package cannot be shipped"
+
+---
