@@ -48,4 +48,26 @@ Write a program that reads three edges for a triangle and computes the perimeter
 
 ---
 ### 3.20 Science: Wind-Chill temperature
-Programming exercise 2.17 gives a formula to compute the wind-chill temperature. The formula is valid for temperatures in the range between -58°F and 41°F and wind speed greater than or equal to 2. Write a program that prompts the user to enter a temperature and wind speed. The program displays the wind-chill temperature if the input is valid; otherwise, it displays a message indicating whether the temperature and/or wind speed is invalid.
+Programming exercise 2.17 gives a formula to compute the wind-chill temperature. The formula is valid for temperatures in the range between -58°F and 41°F and wind speed greater than or equal to 2. Write a program that prompts the user to enter a temperature and wind speed. The program displays the wind-chill temperature if the input is valid; otherwise, it displays a message indicating whether the temperature and/or wind speed is invalid. [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/WindChillTemperature.java)
+
+---
+### 3.21 Science: day of the week
+Zeller's congruence is an algorithm developed by Christian Zeller to calculate the day of the week. The formula is:
+
+> h = (q + ((26(m + 1))/10) + K + k/4 + j/4 + 5j) % 7.
+
+Where:
+*h* is the day of the week (0: Saturday, 1: Sunday, 2:Monday, 3:Tuesday, 4:Wednesday, 5: Thursday, 6: Friday).
+*q* is the day of the month.
+*m* is the month (3: March, 4:April, ..., 12: December). January and February are counted as months 13 and 14 of the previous year.
+*j* is the century (i.e., year/100).
+*k* is the year of the century (i.e., year % 100).
+
+Note that the division in the formula performs an integer division. Write a program that prompts the user to enter a year, month, and day of the month, and displays the name of the day of the week. Here are some example runs:
+
+>Enter year: 2012
+>Enter month: 1
+>Enter the day of the month: 25
+>Day of the week is Sunday
+
+(Hint: January and February are counted as 13 and 14 in the formula, so you need to ocnvert the user input 1 to 13 and 2 to 14 for the month and change the year to the previous year).
