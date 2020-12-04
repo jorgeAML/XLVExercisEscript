@@ -21,4 +21,11 @@ The program in Listing 3.1 AdditionQuiz.java, generates two integers and prompts
 A linear equation can be solved using Cramer's rule given in Programming Exercise 1.13 Write a program that prompts the user to enter a, b, c, d, e and f and displays the result. If *ad - bc* is 0, report that "The equation has no solution". [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/LinearEquation.java)
 
 ---
+### 3.17 Game: Scissor, rock, paper
+Write a program that plays the popular scissor-rock-paper game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock). The program randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The program prompts the user to ente ra number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses or draws. Here are sample runs:
 
+> scissor (0), rock (1), paper (2): 1
+> The computer is scissor, You are rock. You won.
+
+> scissor (0), rock (1), paper (2): 1
+> The computer is paper, You are paper too. It is a draw.
