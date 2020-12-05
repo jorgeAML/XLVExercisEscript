@@ -79,6 +79,7 @@ Write a program that prompts the user to enter a point (x,y) and checks whether 
 
 > Enter a point with two coordinates: 4 5
 > Point (4.0, 5.0) is in the circle
+
 > Enter a point with two coordinates: 9 9
 > Point (9.0, 9.0) is not in the circle
 
@@ -90,8 +91,10 @@ Write a program that prompts the user to enter a point (x, y) and checks whether
 
 > Enter a point with two coordinates: 2 2
 > Point (2.0, 2.0) is in the rectangle
+
 > Enter a point with two coordinates: 6 4
 > Point (6.0, 4.0) is not in the rectangle
 
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointInARectangle.java)
+
 ---
