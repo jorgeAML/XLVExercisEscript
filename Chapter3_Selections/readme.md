@@ -93,4 +93,5 @@ Write a program that prompts the user to enter a point (x, y) and checks whether
 > Enter a point with two coordinates: 6 4
 > Point (6.0, 4.0) is not in the rectangle
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointInARectangle.java)
 ---
