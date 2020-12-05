@@ -71,3 +71,13 @@ Note that the division in the formula performs an integer division. Write a prog
 >Day of the week is Sunday
 
 (Hint: January and February are counted as 13 and 14 in the formula, so you need to ocnvert the user input 1 to 13 and 2 to 14 for the month and change the year to the previous year).
+
+---
+### 3.22 Geometry: Point in a circle?
+Write a program that prompts the user to enter a point (x,y) and checks whether the point is whithin the circle centered at (0,0) with radius 10. For example, (4,5) is inside the circle and (9,9), is outside the circle, as shown in Figure 3.7a.
+(Hint: A point is in the circle if its distance to (0,0) is less than or equal to 10. The formula for computing the distance is sqrt((x2-x1)^2 + (y2-y1)^2). Test your program to cover all cases.) Two sample runs are shown below:
+
+> Enter a point with two coordinates: 4 5
+> Point (4.0, 5.0) is in the circle
+> Enter a point with two coordinates: 9 9
+> Point (9.0, 9.0) is not in the circle
