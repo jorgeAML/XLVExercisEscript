@@ -81,3 +81,5 @@ Write a program that prompts the user to enter a point (x,y) and checks whether 
 > Point (4.0, 5.0) is in the circle
 > Enter a point with two coordinates: 9 9
 > Point (9.0, 9.0) is not in the circle
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointInACircle.java)
