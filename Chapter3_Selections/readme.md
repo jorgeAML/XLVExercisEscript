@@ -127,4 +127,6 @@ Write a program that prompts the user to enter an integer and determines whether
 >
 >Is 10 divisible by 5 or 6, but not both? true
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/TernaryOperators.java)
+
 ---
