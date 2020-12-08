@@ -25,19 +25,26 @@ A linear equation can be solved using Cramer's rule given in Programming Exercis
 Write a program that plays the popular scissor-rock-paper game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock). The program randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The program prompts the user to ente ra number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses or draws. Here are sample runs: [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/ScissorRockPaper.java)
 
 > scissor (0), rock (1), paper (2): 1 
+>
 >   The computer is scissor, You are rock. You won.
-
+>
 > scissor (0), rock (1), paper (2): 1
+>
 >   The computer is paper, You are paper too. It is a draw.
 
 ---
 ### 3.18 Cost of Shipping
 A shipping company uses the following function to calculate the cost (in dollars) of shipping based on the weight of the package (in pounds).
 > c(w) = {
+    >
 >   3.5, if 0 < w <= 1
+>
 >   5.5, if 1 < w <= 3
+>
 >   8.5, if 3 < w <= 10
+>
 >   10.5, if 10 < w <= 20
+>
 >}
 
 Write a program that prompts the user to enter the weight of the package and display the shipping cost. If the weight is greater than 50, display a message "The package cannot be shipped" [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/CostOfShipping.java)
@@ -66,8 +73,11 @@ Where:
 Note that the division in the formula performs an integer division. Write a program that prompts the user to enter a year, month, and day of the month, and displays the name of the day of the week. Here are some example runs:
 
 >Enter year: 2012
+>
 >Enter month: 1
+>
 >Enter the day of the month: 25
+>
 >Day of the week is Sunday
 
 (Hint: January and February are counted as 13 and 14 in the formula, so you need to ocnvert the user input 1 to 13 and 2 to 14 for the month and change the year to the previous year).
@@ -79,7 +89,7 @@ Write a program that prompts the user to enter a point (x,y) and checks whether 
 
 > Enter a point with two coordinates: 4 5
 > Point (4.0, 5.0) is in the circle
-
+>
 > Enter a point with two coordinates: 9 9
 > Point (9.0, 9.0) is not in the circle
 
@@ -91,7 +101,7 @@ Write a program that prompts the user to enter a point (x, y) and checks whether
 
 > Enter a point with two coordinates: 2 2
 > Point (2.0, 2.0) is in the rectangle
-
+>
 > Enter a point with two coordinates: 6 4
 > Point (6.0, 4.0) is not in the rectangle
 
@@ -102,14 +112,14 @@ Write a program that prompts the user to enter a point (x, y) and checks whether
 Two points on line 1 are given as (x1, y1) and (x2, y2) and on line 2 as (x3, y3) and (x4, y4) as shown in Figure 3.8a-b. The intersectiong point of the two lines can be found by solving the following linear equation:
 
 > (y1 - y2)x - (x1 - x2)y = (y1 - y2)x1 - (x1 - x2)y1
-
+>
 > (y3 - y4)x - (x3 - x4)y = (x3 - y4)x3 - (x3 - x4)y3
 
 This linear equation can be solved using Cramer's rule [Intersection Euclidean Geometry](https://en.wikipedia.org/wiki/Intersection_%28Euclidean_geometry%29#Two_lines) (see Programming Exercise 3.3). If the equation has no solutions, the two lines are parallel. Write a program that prompts the user to enter four points and displays the intersecting point. Here are sample runs:
 
 > Enter x1, y1, x2, y2, x3, y3, x4, y4: 2 2 5 -1.0 4.0 2.0 -1.0 -2.0
 > The intersecting point is at (2.88889, 1.1111)
-
+>
 > Enter x1, y1, x2, y2, x3, y3, x4, y4: 2 2 7 6.0 4.0 2.0 -1.0 -2.0
 > The two lines are parallel.
 
