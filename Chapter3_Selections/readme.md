@@ -159,4 +159,6 @@ Suppose a right triangle is placed in a plane as show below. The right-angle poi
 >
 >The point is not in the triangle
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointsInTriangle.java)
+
 ---
