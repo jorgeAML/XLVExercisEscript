@@ -113,6 +113,8 @@ Write a program that simulates picking a card from a deck of 52 cards. Your prog
 
 > The card you picked is Jack of Hearts
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PickACard.java)
+
 ---
 ### 3.25 Geometry: Intersection point
 Two points on line 1 are given as (x1, y1) and (x2, y2) and on line 2 as (x3, y3) and (x4, y4) as shown in Figure 3.8a-b. The intersectiong point of the two lines can be found by solving the following linear equation:

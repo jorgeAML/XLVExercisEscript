@@ -42,7 +42,7 @@ public class PickACard {
                 System.exit(1);
              }
         } else if (pickCard > 52) {
-            System.out.println("Well it's seems that we have more cards on the table. We going to wait to a new game.");
+            System.out.println("Well it's seems that we have more cards on the table. We going to wait to a new game Carl.");
             System.exit(0);
         } else {
             System.out.println("The game has ended");
