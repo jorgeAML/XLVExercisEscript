@@ -108,6 +108,12 @@ Write a program that prompts the user to enter a point (x, y) and checks whether
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointInARectangle.java)
 
 ---
+### 3.24 Game: pick a card
+Write a program that simulates picking a card from a deck of 52 cards. Your program should display the rank (ACE, 2, 3, 4, 5, 6, 7, 8, 9, 10, JACK, QUEEN, KING) and suit (CLUBS, DIAMONDS, HEARTS, SPADES) of the card. Here is a sample run of the program:
+
+> The card you picked is Jack of Hearts
+
+---
 ### 3.25 Geometry: Intersection point
 Two points on line 1 are given as (x1, y1) and (x2, y2) and on line 2 as (x3, y3) and (x4, y4) as shown in Figure 3.8a-b. The intersectiong point of the two lines can be found by solving the following linear equation:
 
