@@ -162,3 +162,25 @@ Suppose a right triangle is placed in a plane as show below. The right-angle poi
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointsInTriangle.java)
 
 ---
+### 3.28 Geometry: Two Rectangles
+Write a program that prompts the user to enter the center x-, y-coordinates, width, and height of two rectangles and determines whether the second rectangle is inside the first or overlaps with the first, as shown in Figure 3.9. Test your program to cover all cases:
+
+> Enter r1's center x-, y-coordinates, width, and height: 2.5 4 2.5 43
+>
+> Enter r2's center x-, y-coordinates, width, and height: 1.5 5 0.5 3
+>
+> r2 is inside r1
+
+> Enter r1's center x-, y-coordinates, width, and height: 1 2 3 5.5
+>
+> Enter r2's center x-, y-coordinates, width, and height: 3 4 4.5 5
+>
+> r2 overlaps r1
+
+> Enter r1's center x-, y-coordinates, width, and height: 1 2 3 3 
+>
+> Enter r2's center x-, y-coordinates, width, and height: 40 45 3 2
+>
+> r2 does not overlaps r1
+
+---
