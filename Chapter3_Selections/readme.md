@@ -186,3 +186,24 @@ Write a program that prompts the user to enter the center x-, y-coordinates, wid
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/TwoRectangles.java)
 
 ---
+### 3.29 Geometry: Two Cricles
+Write a program that prompts the user to enter the center coordinates and radio of two circles and determines whether the second circle is inside the first or overlaps with the first, as shown in Figure 3.10. (Hint: circle 2 is inside circle 1 if the distance between the two centers <= |r1 - r2| and circle 2 overlaps circle 1 if the distance between the two centers <= r1 + r2. Test your program to cover all cases.)
+Here are the sample runs:
+
+>Enter circles1's center x-, y-coordinates, and radius: 0.5 5.1 13
+>
+>>Enter circles2's center x-, y-coordinates, and radius: 1 1.7 4.5
+>
+>circle2 is inside circle1
+
+>Enter circles1's center x-, y-coordinates, and radius: 3.4 5.7 5.5
+>
+>>Enter circles2's center x-, y-coordinates, and radius: 6.7 3.5 3
+>
+>circle2 overlaps circle1
+
+>Enter circles1's center x-, y-coordinates, and radius: 3.4 5.5 1
+>
+>>Enter circles2's center x-, y-coordinates, and radius: 5.5 7.2 1
+>
+>circle2 does not overlap circle1
