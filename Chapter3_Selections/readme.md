@@ -207,3 +207,15 @@ Here are the sample runs:
 >>Enter circles2's center x-, y-coordinates, and radius: 5.5 7.2 1
 >
 >circle2 does not overlap circle1
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/TwoCircles.java)
+
+---
+### 3.30 Current Time
+Revise the Programming Exercise 2.8 to display the hour using a 12-hour clock. Here is a sample run:
+
+> Enter the time zone offset to GMT: -5
+>
+> The current time is 4:50:34 AM
+
+---
