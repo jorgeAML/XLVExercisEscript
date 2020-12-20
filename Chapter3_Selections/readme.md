@@ -249,3 +249,15 @@ Write a program that prompts the user to enter the exchange rate from currency i
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/FinancialCurrencyExchange.java)
 
 ---
+### 3.32 Geometry: Point Position
+Given a directed line from point p0(x0,y0) to p1(x1,y1), you can use the following condition to decide whether a point p2(x2,y2) is on the left of the line, on the right or on the same line.
+
+>(x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0)
+>
+> ">" 0 p2 is on the left side of the line.
+>
+> "=" 0 p2 is on the same line.
+>
+> "<" 0 p2 is on the right side of the line.
+
+---
