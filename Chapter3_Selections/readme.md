@@ -218,4 +218,34 @@ Revise the Programming Exercise 2.8 to display the hour using a 12-hour clock. H
 >
 > The current time is 4:50:34 AM
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/CurrentTime.java)
+
+---
+### 3.31 Financials: Currency exchange
+Write a program that prompts the user to enter the exchange rate from currency in U.S. dollars to chinese RMB. Prompt the user to enter 0 to convert from U.S. dollars to chinese RMB and 1 to convert from chinese RMB and U.S. dollars. Prompt the user to enter the amount in U.S. dollar or chinese RMB to convert it to Chinese RMB or U.S. dollars, respectively. Here are the sample runs:
+
+>Enter the exchange rate from dollars to RMB: 6.81
+>
+>Enter 0 to convert dollars to RMB and 1 vice versa: 0
+>
+>Enter the dollar amount: 100
+>
+>$100.0 is 681.0 yuan.
+
+>Enter the exchange rate from dollars to RMB: 6.81
+>
+>Enter 0 to convert dollars to RMB and 1 vice versa: 1
+>
+>Enter the RMB amount: 10000
+>
+>$10000.0 yuan is $1468.43.
+
+>Enter the exchange rate from dollars to RMB: 6.81
+>
+>Enter 0 to convert dollars to RMB and 1 vice versa: 5
+>
+>Incorrect input.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/FinancialCurrencyExchange.java)
+
 ---
