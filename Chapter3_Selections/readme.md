@@ -277,3 +277,22 @@ Suppose you shop for rice in two different packages. You would like to write a p
 >Enter weight and price for package 2: 25  12.5
 >
 >Two package have the same price.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/CompareCost.java)
+
+---
+### 3.34 Geometry: Point on line segment
+Programming exercise 3.32 shows how to test whether a point si no an unbounded line. Revise programming exercise 3.32 to test whether a point is on line segment. Write a program that prompts the user to enter the three points for p0, p1, and p2 and displays whether p2 is on the line segment from p0 to p1. Here are some sample runs:
+
+>Enter three points for p0, p1, and p2: 1 1 2.5 2.5 1.5 1.5
+>
+>(1.5, 1.5) is on the line segment from (1.0, 1.0) to (2.5, 2.5).
+
+>Enter three points for p0, p1, and p2: 1 1 2 2 3.5 3.5
+>
+>(3.5, 3.5) is on the line segment from (1.0, 1.0) to (2.0, 2.0).
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointOnLineSegment.java)
+
+---
+### End of the line 
