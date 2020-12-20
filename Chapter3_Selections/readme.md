@@ -263,3 +263,17 @@ Given a directed line from point p0(x0,y0) to p1(x1,y1), you can use the followi
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointPosition.java)
 
 ---
+### 3.33 Financial: Compare Cost
+Suppose you shop for rice in two different packages. You would like to write a program to compare the cost. The program prompts the user to enter the weight and price of the each package and displays the one with the better price Here is a sample run:
+
+>Enter weight and price for package 1: 50 24.59
+>
+>Enter weight and price for package 2: 25 11.99
+>
+>Package 2 has a better price.
+
+>Enter weight and price for package 1: 50 25
+>
+>Enter weight and price for package 2: 25  12.5
+>
+>Two package have the same price.
