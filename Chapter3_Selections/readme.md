@@ -260,4 +260,6 @@ Given a directed line from point p0(x0,y0) to p1(x1,y1), you can use the followi
 >
 > "<" 0 p2 is on the right side of the line.
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter3_Selections/PointPosition.java)
+
 ---
