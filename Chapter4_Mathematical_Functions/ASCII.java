@@ -15,5 +15,13 @@ public class ASCII {
         char decimal90 = (char)90;
         System.out.println("---------------------");
         System.out.println(decimal40 + "\t" + decimal59 + "\n" + decimal79 + "\t" + decimal85 + "\n" + decimal90);
+        /**USE PRINT STATEMENTS TO FIND OUT THE CHARACTERS FOR THE HEXADECIMAL CODE 40, 5A, 71, 72, AND 7A */
+        char hexadecimal40 = '\u0040';
+        char hexadecimal5A = '\u005A';
+        char hexadecimal71 = '\u0071';
+        char hexadecimal72 = '\u0072';
+        char hexadecimal7A = '\u007A';
+        System.out.println("---------------------");
+        System.out.println(hexadecimal40 + "\t" + hexadecimal5A + "\n" + hexadecimal71 + "\t" + hexadecimal72 + "\n" + hexadecimal7A);
     }
 }
