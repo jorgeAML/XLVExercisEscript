@@ -15,3 +15,11 @@ Where *r* is the length from the center of a pentagon to a vertex. Round up two 
 
 ---
 ### 4.2 Geometry: Great circle distance
+
+
+---
+### 4.8 Find the character of an ASCII code
+Write a program that receives an ASCII code (an integer between 0 and 127) and displays its character. Here is a sample run:
+
+>Enter an ASCII code: 69
+>The character for ASCII code is 69 is E
