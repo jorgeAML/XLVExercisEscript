@@ -23,3 +23,13 @@ Write a program that receives an ASCII code (an integer between 0 and 127) and d
 
 >Enter an ASCII code: 69
 >The character for ASCII code is 69 is E
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/AsciiCode.java)
+
+---
+### 4.9 Find the Unicode of a character
+Write a program that receives a character and displays its Unicode. Here is a sample run:
+
+>Enter a character: E
+>The Unicode for the character E is 69
+
