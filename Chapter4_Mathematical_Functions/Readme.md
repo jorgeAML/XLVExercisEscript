@@ -33,3 +33,12 @@ Write a program that receives a character and displays its Unicode. Here is a sa
 >Enter a character: E
 >The Unicode for the character E is 69
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/UnicodeCharacter.java)
+
+---
+### 4.10 Guess Birthday
+Rewrite listing 4.3, GuessBirthday.java, to prompt the user to enter the character Y for yes and N for No rather than entering 1 for Yes and 0 for No.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/GuessBirthday.java)
+
+---
