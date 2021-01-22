@@ -35,7 +35,8 @@ public class HexToBinary {
                     System.out.println("Decimal value of " + hex + " is: " + convertToDecimal);
                 }
             
-        } if (Character.isDigit(convertHexToChar)) {
+        } 
+         if (Character.isDigit(convertHexToChar)) {
             if (convertHexToChar == '0') {
                 int binary = 0;
                 System.out.println("The binary number of " + convertHexToChar + " is " + binary);
@@ -70,6 +71,9 @@ public class HexToBinary {
                 System.out.println("Decimal value of " + hex + " is: " + convertHexToChar);
             }
             
+        } 
+        if (convertHexToChar > 'F' && convertHexToChar > 9) {
+            System.out.println("Invalid input");
         }
     }
 }
