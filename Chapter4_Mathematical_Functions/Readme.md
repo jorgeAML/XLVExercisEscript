@@ -134,3 +134,19 @@ Write a program that prompts the user to enter a hex digit and displays its corr
 >G is an invalid input
 
 ---
+### 4.13 Vowel or consonant
+Write a program that prompts the user to enter a letterand check whether the letter is a vowel or consonant. Here is a sample run:
+
+>Enter a letter: B
+>
+>B is a consonant.
+
+>Enter a letter grade: a
+>
+>a is a vowel.
+
+>Enter a letter grade: #
+>
+>invalid input.
+
+---
