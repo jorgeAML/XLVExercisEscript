@@ -165,4 +165,25 @@ Write a program that prompts the user to enter a letter grade A, B, C, D, or F a
 >
 >T is an invalid grade.
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/ConvertLetterGradeToNumber.java)
+
+---
+### 4.15 Phone key pads
+The international standard letter/number mapping found on the telephone is shown below here: [Phone key pad](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/1920px-Telephone-keypad2.svg.png)
+Write a program that prompts the user to enter a letter and displays its corresponding number.
+
+>Enter a letter: A
+>
+>The corresponding number is 2.
+
+>Enter a letter: a
+>
+>The corresponding number is 2.
+
+>Enter a letter: +
+>
+>'+' is an invalid input
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/PhoneKeyPads.java)
+
 ---
