@@ -133,6 +133,8 @@ Write a program that prompts the user to enter a hex digit and displays its corr
 >
 >G is an invalid input
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/HexToBinary.java)
+
 ---
 ### 4.13 Vowel or consonant
 Write a program that prompts the user to enter a letterand check whether the letter is a vowel or consonant. Here is a sample run:
@@ -148,5 +150,19 @@ Write a program that prompts the user to enter a letterand check whether the let
 >Enter a letter grade: #
 >
 >invalid input.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/VowelOrConsonant.java)
+
+---
+### 4.14 Convert letter grade to number
+Write a program that prompts the user to enter a letter grade A, B, C, D, or F and displays its corresponding numeric value 4, 3, 2, 1, or 0. Here is a sample run:
+
+>Enter a letter grade: B
+>
+>The numeric value for grade B is 3.
+
+>Enter a letter grade: T
+>
+>T is an invalid grade.
 
 ---
