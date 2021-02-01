@@ -15,8 +15,9 @@ public class AreaOfAPentagon {
 
         //CONDITIONAL
         if (formulaLengthSide != 0) {
-            System.out.println("The area of the pentagon is: " + Math.rint(formulaLengthSide));
+            System.out.println("The area of the pentagon is: " + Math.round(formulaLengthSide * 100) / 100D);
         } else {
+            System.out.println("The program do not accepts 0 or less values");
             System.exit(1);
         }
 

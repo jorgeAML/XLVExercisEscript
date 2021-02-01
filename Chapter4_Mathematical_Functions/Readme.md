@@ -187,3 +187,9 @@ Write a program that prompts the user to enter a letter and displays its corresp
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/PhoneKeyPads.java)
 
 ---
+### 4.16 Random Character
+Write a program that displays a random uppercase letter using the Math.random() method.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/RandomCharacter.java)
+
+---
