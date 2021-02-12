@@ -227,4 +227,5 @@ Here is a sample run:
 >Enter two characters: T3
 >   Invalid Input
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/StudentMajorAndStatusVersion2.java)
 ---
