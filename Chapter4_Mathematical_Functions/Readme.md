@@ -209,3 +209,22 @@ Write a program that prompts the user to enter a year and the first three letter
 >Jan 2016 has 29 days
 
 ---
+### 4.18 Student major and status
+Write a program that prompts the user to enter two characters and displays the major and status represented in the characters. The first character indicates the major and the second is number character 1, 2, 3, 4, which indicates whether a student is a freshman, sophomore, junior, or senior. Suppose the following characters are used to denote the majors:
+
+1. M: Mathematics
+2. C: Computer Science
+3. I: Information Technology
+
+Here is a sample run:
+
+>Enter two characters: M1
+>   Mathematics Freshman
+
+>Enter two characters: C3
+>   Computer Science Junior
+
+>Enter two characters: T3
+>   Invalid Input
+
+---
