@@ -233,4 +233,6 @@ Here is a sample run:
 ### 4.19 Bussiness check ISBN-10
 Rewrite the programming exercise 3.9 by entering the ISBN number as a string.
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/ISBNLikeString.java)
+
 ---
