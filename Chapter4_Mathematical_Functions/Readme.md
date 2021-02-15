@@ -236,3 +236,9 @@ Rewrite the programming exercise 3.9 by entering the ISBN number as a string.
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/ISBNLikeString.java)
 
 ---
+### 4.20 Process a string
+Write a program that prompts the user to enter a string and displays its length and its first character.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/ProcessAString.java)
+
+---
