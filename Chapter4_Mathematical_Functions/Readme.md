@@ -256,3 +256,15 @@ Write a program that prompts the user to enter a social security number in forma
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/CheckSSN.java)
 
 ---
+### 4.22 Check substring
+Write a program that prompts the user to enter two strings and reports whether the second string is a substring of the first string.
+
+>Enter a string s1: ABCD
+>
+>Enter a string s2: BC
+>
+>BC is a substring of ABCD
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/CheckSubstring.java)
+
+---
