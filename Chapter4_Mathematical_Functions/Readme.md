@@ -268,3 +268,31 @@ Write a program that prompts the user to enter two strings and reports whether t
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/CheckSubstring.java)
 
 ---
+### 4.23 Financial application: payroll 
+Write a program that reads the following information and prints a payroll statement:
+
+>Employee's name (e.g. Smith)
+> Number of hours worked in a week (e.g. 10)
+> Hourly pay rate (e.g. 9.75)
+> Federaltax withholding rate (e.g. 20%)
+> State tax withholding rate (e.g. 9%)
+
+A sample run is shown below:
+
+>>Employee's name: Smith
+> Number of hours worked in a week: 10
+> Hourly pay rate: 9.75
+> Federaltax withholding rate: 20%
+> State tax withholding rate: 9%
+>
+>Employee Name: Smith
+> Hours workedL 10.0
+> Pay rate: $9.75
+> Gross pay: $97.5
+> Deductions:
+>  Federal withholding (20.0%): $19.5
+>  State withholding (9.0%): $8.77
+>  Total deductions: $28.27
+> Net pay: $69.22
+
+---
