@@ -312,3 +312,9 @@ Write a program that prompts the user to enter three cities and displays them in
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/OrderThreeCities.java)
 
 ---
+### 4.25 Generate vehicle plate numbers
+Assume a vehicle plate number consist of three uppercase letters followed by four digits. Write a program to generate a plate number.
+
+>You vehicule plate number: DVD1985
+
+---
