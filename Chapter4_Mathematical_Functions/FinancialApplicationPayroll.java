@@ -22,7 +22,7 @@ public class FinancialApplicationPayroll {
         //FORMULAS
         double grossPay = horas * payRate;
         double federalTaxWithholding = federalTax * payRate * 10;
-        double stateTaxWithholding = (stateTax * payRate * 100) / 10D;
+        double stateTaxWithholding = (stateTax * payRate * 100)/10D;
         double totalDeduction = federalTaxWithholding + stateTaxWithholding;
         double netPay = grossPay - totalDeduction;
         //CONDITIONALS
@@ -36,7 +36,7 @@ public class FinancialApplicationPayroll {
             System.out.println("Deductions: " + "\n" + " Federal Withholding (" + (federalTax * 100) +  "%): " + federalTaxWithholding 
             + "\n" + " State Deductions (" + (stateTax * 100) + "%): " + stateTaxWithholding + "\n" + 
             " Total Deduction: " + totalDeduction);
-            System.out.println("Net Pay: " + netPay);
+            System.out.printf("Net Pay: %10.2f \n", netPay);
             System.out.println("------------------------------");
         } else {
             System.out.println("You must insert a valid name");
