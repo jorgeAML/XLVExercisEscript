@@ -309,4 +309,6 @@ Write a program that prompts the user to enter three cities and displays them in
 >
 >The three cities in alphabetical order are Atlanta, Chicago, Los Angeles.
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/OrderThreeCities.java)
+
 ---

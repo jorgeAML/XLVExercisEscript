@@ -9,7 +9,7 @@ public class OrderThreeCities {
         String city2 = input.nextLine();
         System.out.println("Enter the third city: ");
         String city3 = input.nextLine();
-
+// 3 * 3 = 9 Posibles respuestas
         if (city1.compareTo(city2) < 0 && city1.compareTo(city3) < 0 ){
                 System.out.println("The cities in alphabetical order are " + city1 + 
                 " " + city2 + " " + city3);
