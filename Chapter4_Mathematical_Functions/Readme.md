@@ -317,4 +317,12 @@ Assume a vehicle plate number consist of three uppercase letters followed by fou
 
 >You vehicule plate number: DVD1985
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/VehiclePlateNumber.java)
+
+---
+### 4.26 Financial application: monetary units
+Rewrite listing 2.10, ComputeChange.java to fix the possible loss of accuracy when converting a float value to an **int** value. Read the input as a string such as "11.56". Your program should extract the dollar amount before the decimal point and the cents after the decimal amount using the **indexOf** and **substring** methods.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter4_Mathematical_Functions/ComputeChange.java)
+
 ---
