@@ -1,0 +1,5 @@
+Enter an integer (The input ends if it is 0)
+Enter an integer (The input ends if it is 0)
+Enter an integer (The input ends if it is 0)
+Enter an integer (The input ends if it is 0)
+The sum is: 60
