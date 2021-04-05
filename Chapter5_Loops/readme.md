@@ -36,4 +36,6 @@ Write a program that displays the following table (note that 1 kilogram is 2.2 p
 > 197 | 433.4
 > 199 | 437.8
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ConversionFromKilogramsToPounds.java)
+
 ---
