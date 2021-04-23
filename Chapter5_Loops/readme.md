@@ -53,3 +53,17 @@ Write a program that displays the following table (note: 1 mile is 1.609 kilomet
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ConversionMilesToKilometers.java)
 
 ---
+### 5.5 Conversion from kilograms to pounds and pounds to kilograms
+Write a program that displays the following two tables side by side:
+
+| Kilograms | Pounds | Pounds | Kilograms |
+| --------- | ------ | ------ | --------- |
+| 1         | 2.2    | 20     | 9.09      |
+| 2         | 6.6    | 25     | 11.36     |
+| ...       | ...    | ...    | ...       |
+| 197       | 433.4  | 510    | 231.82    |
+| 199       | 437.8  | 515    | 234.09    |
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ConversionKilogramsToPoundsAndPoundsToKilogram.java)
+
+---
