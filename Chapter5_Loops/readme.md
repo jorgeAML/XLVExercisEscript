@@ -67,3 +67,17 @@ Write a program that displays the following two tables side by side:
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ConversionKilogramsToPoundsAndPoundsToKilogram.java)
 
 ---
+### Conversion from miles to kilometers
+Write a program that displays the following two tables side by side.
+
+| Miles | Kilometers | Kilometers | Miles |
+| ----- | ---------- | ---------- | ----- |
+| 1     | 1.609      | 20         | 12.43 |
+| 2     | 3.218      | 25         | 15.53 |
+| ...   | ...        | ...        | ...   |
+| 9     | 14.481     | 60         | 37.29 |
+| 10    | 16.090     | 65         | 40.39 |
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/MilesToKilometers2.java)
+
+---
