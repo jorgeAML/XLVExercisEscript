@@ -67,7 +67,7 @@ Write a program that displays the following two tables side by side:
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ConversionKilogramsToPoundsAndPoundsToKilogram.java)
 
 ---
-### Conversion from miles to kilometers
+### 5.6 Conversion from miles to kilometers
 Write a program that displays the following two tables side by side.
 
 | Miles | Kilometers | Kilometers | Miles |
@@ -79,5 +79,11 @@ Write a program that displays the following two tables side by side.
 | 10    | 16.090     | 65         | 40.39 |
 
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/MilesToKilometers2.java)
+
+---
+### 5.7 Financial application: Compute future tuition
+Suppose that the tuition for a university is $10,000 this year and increase 5% every year. In one year the tuition will be $10,500. Write a program that computes the tuition in ten years and the total cost of four years worth of tuition after the tenth year.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ComputeFutureTuition.java)
 
 ---
