@@ -10,3 +10,7 @@ Write a program that reads a a Celsius degree in a *double* value from the conso
 >Enter a degree in Celsius: 43
 >
 >43 Celsius is 109.4 Fahrenheit.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2_Elementary-Programming/ConvertCelsiusToFahrenheit.java)
+
+---
