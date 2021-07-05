@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**Financial application: Compound Value 
  * Suppose you save $100 each month into a savings account with annual interest rate 5%. 
  * Thus the monthly interest rate is 0.05/12 = 0.00417. After the first month, the value 
