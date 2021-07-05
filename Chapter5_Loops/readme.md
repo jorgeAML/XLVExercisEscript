@@ -87,3 +87,7 @@ Suppose that the tuition for a university is $10,000 this year and increase 5% e
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ComputeFutureTuition.java)
 
 ---
+### 5.8 Find the highest score
+Write a program that prompts the user to enter the number of students and each student's name and score, and finally displays the name of the student with the highest score.
+
+---
