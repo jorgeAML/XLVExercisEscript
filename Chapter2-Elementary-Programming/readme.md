@@ -15,3 +15,19 @@ Write a program that reads a a Celsius degree in a *double* value from the conso
 
 
 ---
+### 2.2 Compute the volume of a cylinder
+Write a program that reads in the radius and length of a cylinder and computes the area and volume using the following formulas:
+
+| Area | Volume |
+| ---- | ------ |
+| radius * radius * PI | area * radius |
+
+Here is a sample run:
+
+> Enter the radius and length of a cylinder: **5.5 12**
+>
+> The area is 95.0331
+>
+> The volume is 1140.4
+
+---
