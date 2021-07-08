@@ -39,3 +39,7 @@ Write a program that reads a number in feet, converts its to meters, and display
 >Enter a value for feet: 16.5
 >
 >16.5 feet is 5.0325 meters
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/ConvertFeetIntoMeters.java)
+
+---
