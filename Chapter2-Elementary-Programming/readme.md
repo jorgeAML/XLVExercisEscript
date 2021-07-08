@@ -43,3 +43,13 @@ Write a program that reads a number in feet, converts its to meters, and display
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/ConvertFeetIntoMeters.java)
 
 ---
+### 2.4 Convert pounds into kilograms
+Write a program that converts pounds into kilograms. The program prompts the user to enter a number in pounds, converts it to kilograms, and display the result. One pound is **0.454** Kilogram. Here is a sample run:
+
+>Ente a number in pounds: 55.5
+>
+>55.5 pounds is 25.197 kilograms.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/ConvertPoundsIntoKilograms.java)
+
+---
