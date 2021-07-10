@@ -60,4 +60,6 @@ Write a program that reads the subtotal and the gratuity rate, then computes the
 >
 >The gratuity is $1.5 and total is $11.5
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CalculateTips.java)
+
 ---
