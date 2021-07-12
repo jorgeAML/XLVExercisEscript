@@ -74,3 +74,14 @@ Hint: use the % operator to extract digits, and use the / operator to remove the
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/SumTheDigitsInteger.java)
 
 ---
+### 2.7 Find the number of years
+Write a program that prompts the user to enter the minutes (e.g, 1 billion), and displays the number of years and days for the minutes. For simplicity, assume a year has 365 days. Here is a sample run:
+
+>Enter the number of minutes: 1000000000
+>
+>1000000000 minutes is approximately 1902 years and 214 days.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/FindNumberOfYears.java)
+
+---
+
