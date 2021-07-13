@@ -84,4 +84,14 @@ Write a program that prompts the user to enter the minutes (e.g, 1 billion), and
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/FindNumberOfYears.java)
 
 ---
+### 2.8 Current Time
+Listing 2.7, ShowCurrentTime.java gives a program to displays the current time in GMT. Revise the program so that it prompts the user to enter the time zone offset to GMT and displays the time in the specified time zone. Here is a sample run:
+
+>Enter the time zone offset to GMT: -5
+>
+>The current time is 4:50:54S
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CurrentTime.java)
+
+---
 

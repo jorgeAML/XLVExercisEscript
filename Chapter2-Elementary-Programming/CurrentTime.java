@@ -29,6 +29,8 @@ public class CurrentTime {
         System.out.println("Enter the time offset to GMT: ");
         long yourTyme = input.nextLong();
         long formula = currentHours - yourTyme;
-        System.out.println("Your Current time is: " + formula + ":" + currentMinutes + ":" + currentSeconds);
+        long guatemala = formula + 12;
+        System.out.println("Your Current time is: " + formula + ":" + currentMinutes + ":" + currentSeconds + " UTC");
+        System.out.println("Current time in Guatemala is " + guatemala + ":" + currentMinutes + ":" + currentSeconds + " UTC");
     }
 }
