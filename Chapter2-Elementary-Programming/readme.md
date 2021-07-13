@@ -94,4 +94,18 @@ Listing 2.7, ShowCurrentTime.java gives a program to displays the current time i
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CurrentTime.java)
 
 ---
+### 2.9 Physics acceleration
+Average acceleration is defined as the change of velocity divided by the time taken to make the change, as shown in the following formula:
+
+> a = v1 - v0 / t
+
+Write a program that prompts the user to enter the starting velocity **v0** in meters/seconds, the ending velocity **v1** in meters/seconds, and the time span **t** in seconds, and displays the average acceleration. Here is a sample run:
+
+>Enter v0, v1, and t: 5.5 50.9 4.5
+>
+>The average acceleration is 10.0889
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/PhysicsAcceleration.java)
+
+---
 

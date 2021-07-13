@@ -18,7 +18,7 @@ public class PhysicsAcceleration {
         //enter the time
         double time = input.nextDouble();
         //make the formula
-        double averageAcceleration = (velocityOne - velocityZero) / time;
+        double averageAcceleration = Math.abs(velocityOne - velocityZero) / time;
         //output the average acceleration
         System.out.println("The average of acceleration is: " + averageAcceleration);
 
