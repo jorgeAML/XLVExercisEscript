@@ -108,4 +108,21 @@ Write a program that prompts the user to enter the starting velocity **v0** in m
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/PhysicsAcceleration.java)
 
 ---
+### 2.10 Science: Calculating Energy
+Write a program that calculates the enery needed to heat water from an initial temperature to a final temperature. Your program shoul prompt the user to enter the amount of water in kilograms and the initial and final temperatures of the water. The formula to compute the energy is:
 
+> Q = M * (finalTemperature - initialTemperature) * 4184
+
+Where **M** is the weight of water in kilograms, temperature are in degrees Celsius, and energy **Q** is measured in joules. Here is a sample run:
+
+> Enter the amount of water in kilograms: 55.5 
+>
+> Enter the initial temperature: 3.5
+>
+> Enter the final temperature: 10.5
+>
+> The energy needed is 1625484.0
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CalculatingEnergy.java)
+
+---
