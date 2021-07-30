@@ -20,6 +20,6 @@ public class FindingRunwayLength {
         //make the formula
         double airplaneAcceleration = (Math.pow(speed, 2))/ (TWO * acceleration);
         //output the airplane acceleration
-        System.out.println("The minimum runway length for this airplane is: " + airplaneAcceleration + "m/s");
+        System.out.println("The minimum runway length for this airplane is: " + airplaneAcceleration + " m/s");
     }
 }

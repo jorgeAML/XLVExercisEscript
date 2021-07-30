@@ -136,3 +136,17 @@ Rewrite programming exercise 1.11 to prompt the user to enter the number of year
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/PopulationProjection.java)
 
 ---
+### 2.12 Physics: Finding runway length
+Given an airplane's acceleration **a** and take-off speed **v** you can compute the minimum runway length needed for an airplane to take off using the following formula:
+
+> length = v^2 / 2a
+
+Write a program that prompts the user to enter **v** in meters/second (m/s) and the acceleration **a** in meters/second squared (m/s^2), and displays the minimum runway length. Here is a sample run:
+
+> Enter speed and acceleration: 60 3.5
+>
+> The minimum runway length for this airplane is 514.286 m/s
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/FindingRunwayLength.java)
+
+---
