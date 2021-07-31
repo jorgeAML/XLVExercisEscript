@@ -184,4 +184,16 @@ Body Mass Index (BMI) is a measure of health on weight. It can be calculated by 
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/ComputingBMI.java)
 
 ---
+### 2.15 Geometry: Distance of two points
+Write a program that prompts the user to enter two points (x1, y1) and (x2, y2) and displays their distance between them. The formula for computing the distance is [Formula](https://www.math.net/mj/ZCA9IFxzcXJ0eyh4XzIteF8xKV4yICsgKHlfMi15XzEpXjJ9_120.svg) Note that you can use **Math.pow(a, 0.5)** to compute *square a*. Here is a sample run:
+
+> Enter x1 and y1: 1.5 -3.4
+>
+> Enter x2 and y2: 4 5
+>
+> The distance between the two points is 8.764131445812194
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/DistanceOfTwoPoints.java)
+
+---
 
