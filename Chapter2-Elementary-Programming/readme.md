@@ -196,4 +196,18 @@ Write a program that prompts the user to enter two points (x1, y1) and (x2, y2) 
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/DistanceOfTwoPoints.java)
 
 ---
+### 2.16 Geometry: Area of a hexagon
+Write a program that prompts the user to enter the side of a hexagon and displays its area. The formula for computing the area of a hexagon is: 
+
+> Area = ((3 * Math.sqrt(3)) / 2 ) * Math.power(s, 2)
+
+Where **s** is the length of a side. Here is a sample run:
+
+>Enter the side: 5.5
+>
+>The area of the hexagon is 78.5895
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/AreaOfAHexagon.java)
+
+---
 
