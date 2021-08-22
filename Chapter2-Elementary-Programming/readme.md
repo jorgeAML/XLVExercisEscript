@@ -199,7 +199,7 @@ Write a program that prompts the user to enter two points (x1, y1) and (x2, y2) 
 ### 2.16 Geometry: Area of a hexagon
 Write a program that prompts the user to enter the side of a hexagon and displays its area. The formula for computing the area of a hexagon is: 
 
-> Area = ((3 * Math.sqrt(3)) / 2 ) * Math.power(s, 2)
+> Area = ((3 * Math.sqrt(3)) / 2 ) * Math.pow(s, 2)
 
 Where **s** is the length of a side. Here is a sample run:
 
@@ -208,6 +208,22 @@ Where **s** is the length of a side. Here is a sample run:
 >The area of the hexagon is 78.5895
 
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/AreaOfAHexagon.java)
+
+---
+### 2.17 Science: Wind-chill temperature
+How cold is it outside? The temperature alone is not enough to provide the answer. Other factors to including wind speed, relative humidity, and sunshine play important roles in determining coldness outside. In 2001, The National Weather Service (NWS) implemented the new wind chill temperature to measure the coldness using temperature and wind speed. The formula is:
+
+> T(wc) = 35.74 + 0.6215T(a) - 35.75V^0.16 + 0.4275T(a)V^0.16
+
+Where **T(a)** is the outside of temperature measured in degrees Fahrenheit and **V** is the speed measured in miles per hour. T(wc) is the wind-chill temperature. The formula cannot be used for wind speeds below 2 mph or temperatures below -58°F and 41°F and a wind speed greather than or equal to 2 and displays the wind-chill temperature. Use **Math.pow(a,b)** to compute (v^0.16). Here is a sample run:
+
+>Enter the temperature in Fahrenheit between -58°F and 41°F: 5.3
+>
+>Enter the wind speed (>=2) in miles per hour: 6
+>
+>The wind chill index is -5.56707
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/WindChillTemperature.java)
 
 ---
 
