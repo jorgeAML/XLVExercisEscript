@@ -237,4 +237,6 @@ Write a program that displays the following table, cast floating point numbers i
 |4|5|1024|
 |5|6|15625|
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/PrintATable.java)
+
 ---
