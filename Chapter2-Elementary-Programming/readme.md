@@ -226,4 +226,15 @@ Where **T(a)** is the outside of temperature measured in degrees Fahrenheit and 
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/WindChillTemperature.java)
 
 ---
+### 2.18 Print a table 
+Write a program that displays the following table, cast floating point numbers into integers
 
+| a | b | pow(a,b) |
+|---|---|----------|
+|1|2|1|
+|2|3|8|
+|3|4|81|
+|4|5|1024|
+|5|6|15625|
+
+---
