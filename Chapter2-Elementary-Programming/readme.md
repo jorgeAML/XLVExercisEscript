@@ -1,4 +1,4 @@
-## Chapter 2 Elementaary Programming
+## Chapter 2 Elementary Programming
 
 ### 2.1 Convert celsius to Fahrenheit
 Write a program that reads a a Celsius degree in a *double* value from the console, then converts it to Fahrenheit and displays the result. The formula for the conversion is as follows:
