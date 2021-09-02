@@ -256,3 +256,17 @@ Here is a sample run:
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/AreaOfATriangle.java)
 
 ---
+### 2.20 Calculate interest
+If you know the balance and the annual percentage interest rate, you can compute the interes on the next monthly payment using the following formula:
+
+> interes = balance * (annualInteresRate/1200)
+
+Write a program that reads the balance and the annual percentage interest rate and displays the interest for the next month. Here is a sample run:
+
+> Enter the balance and the interes rate (e.g, 3 for 3%): 1000 3.5
+>
+> The interest is: 2.91667
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CalculateInteres.java)
+
+---
