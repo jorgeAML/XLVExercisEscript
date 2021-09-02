@@ -270,3 +270,13 @@ Write a program that reads the balance and the annual percentage interest rate a
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CalculateInteres.java)
 
 ---
+### 2.21 Calculate future investment value
+Write a programs that reads in investment amount, annual interes rate and number of years, and display the future investment value using the following formula:
+
+> futureUnvestmentValue = investmentAmount * (1 + monthlyInterestRate)^numberOfYears*12
+
+For example, if you enter an amount of **1000**, annual interes rate **3.25%** and number of years is **1**, the future investment value is **1032.98**.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CalculateFutureInvestmentValue.java)
+
+---
