@@ -280,3 +280,17 @@ For example, if you enter an amount of **1000**, annual interes rate **3.25%** a
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CalculateFutureInvestmentValue.java)
 
 ---
+### 2.23 Cost of driving
+Write a program that prompts the user to enter the distance to drive, the fuel efficiency of the car in miles per gallon, and the price per gallon, and displays the cost of the trip. Here is a sample run:
+
+> Enter the driving distance: 900.5
+>
+> Enter miles per gallon: 25.5
+>
+> Enter the price per gallon: 3.55
+>
+> The cost of driving is $125.36
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CostOfDriving.java)
+
+---
