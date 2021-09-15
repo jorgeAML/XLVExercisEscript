@@ -280,6 +280,12 @@ For example, if you enter an amount of **1000**, annual interes rate **3.25%** a
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/CalculateFutureInvestmentValue.java)
 
 ---
+### 2.22 Financial application: monetary units
+Rewrite listing 2.10 ComputeChange.java to fix the possible loss of accuracy when converting a double value to an **int** value. Enter the inputs as an integer whose last two digits represents the cents. For example, the input 1156 represents **11** dollars and **56** cents.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter2-Elementary-Programming/MonetaryUnits.java)
+
+---
 ### 2.23 Cost of driving
 Write a program that prompts the user to enter the distance to drive, the fuel efficiency of the car in miles per gallon, and the price per gallon, and displays the cost of the trip. Here is a sample run:
 
