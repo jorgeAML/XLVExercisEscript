@@ -20,7 +20,7 @@ Write a program that reads in the radius and length of a cylinder and computes t
 
 | Area | Volume |
 | ---- | ------ |
-| radius * radius * PI | area * radius |
+| radius * radius * PI | area * length |
 
 Here is a sample run:
 
