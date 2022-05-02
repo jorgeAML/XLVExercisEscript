@@ -99,3 +99,7 @@ Write a program that prompts the user to enter the number of students and each s
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/FindTheTwoHighestScore.java)
 
 ---
+### 5.10 Find numbers divisible by 5 and 6
+Write a program that displays all the numbers from 100 to 1000, ten per line, that are divisible by 5 and 6. Numbers are separated by exactly one space.
+
+---
