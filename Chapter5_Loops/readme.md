@@ -102,8 +102,18 @@ Write a program that prompts the user to enter the number of students and each s
 ### 5.10 Find numbers divisible by 5 and 6
 Write a program that displays all the numbers from 100 to 1000, ten per line, that are divisible by 5 and 6. Numbers are separated by exactly one space.
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/FindNumbersDivisibleBy5And6.java)
+
 ---
 ### 5.11 Find numbers divisible by 5 or 6, but not both
 Write a program that displays all the numbers from 100 to 200, ten per line, that are divisible by 5 or 6, but not both. Numbers are separated by exactly one space.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/FindNumbersDivisibleBy5Or6ButNotBoth.java)
+
+---
+### 5.12 Find the smallest n 
+Use a while loop to find the smallest integer n such that n^2 is greather than 12,000.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/FindTheSmallestN.java)
 
 ---
