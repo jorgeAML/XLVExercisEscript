@@ -120,4 +120,6 @@ Use a while loop to find the smallest integer n such that n^2 is greather than 1
 ### 5.13 Find the largest n such that n^3 < 12000
 Use a while loop to find the largest integer n such that n^3 is less than 12,000.
 
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/FindLargestN.java)
+
 ---
