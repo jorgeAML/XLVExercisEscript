@@ -145,4 +145,15 @@ Write a program that reads an integer and displays all its smallest factors in i
 Write a program that prompts the user to enter an integer from 1 to 15 and displays as pyramid, as shown in the following sample run:
 
 > Enter the number of lines: 7
+>             1
+>           2 1 2
+>         3 2 1 2 3
+>       4 3 2 1 2 3 4
+>     5 4 3 2 1 2 3 4 5
+>   6 5 4 3 2 1 2 3 4 5 6
+> 7 6 5 4 3 2 1 2 3 4 5 6 7
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/DisplayPiramid.java)
+
+---
 
