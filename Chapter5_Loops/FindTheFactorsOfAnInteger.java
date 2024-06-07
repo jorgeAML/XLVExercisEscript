@@ -8,7 +8,7 @@ public class FindTheFactorsOfAnInteger {
 		
 		//Crear el algoritmo que encuentre todos sus factores
 		
-		int factor = 2;
+		int factor = 2; // variable de inicializacion
 		while(factor * factor <= myNumber){
 			if(myNumber % factor == 0){
 				System.out.print(factor + ", ");
