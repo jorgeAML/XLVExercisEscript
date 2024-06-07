@@ -129,3 +129,20 @@ Another solution for Listing 5.9 to find the greatest commond divisor of two int
 [Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/ComputeGreatestCommonDivisor.java)
 
 ---
+### 5.15 Display the ASCII Character table
+Write a program that prints the characters in the ASCII character table from ! to ~. Display ten characters per line. The ASCII table is shown in Appendix B. Characters are separated by exactly one space.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/DisplayASCIICharacterTable.java)
+
+---
+### 5.16 Find the factors of an integer
+Write a program that reads an integer and displays all its smallest factors in increasing order. For example, if the input integer is 120, the output should be as follows: 2, 2, 2, 3, 5.
+
+[Find the answer here](https://github.com/jorgeAML/XLVExercisEscript/blob/master/Chapter5_Loops/FindTheFactorsOfAnInteger.java)
+
+---
+### 5.17 Display pyramid
+Write a program that prompts the user to enter an integer from 1 to 15 and displays as pyramid, as shown in the following sample run:
+
+> Enter the number of lines: 7
+
