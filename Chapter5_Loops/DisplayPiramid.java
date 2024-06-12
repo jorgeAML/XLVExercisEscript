@@ -12,16 +12,21 @@ public class DisplayPiramid {
 			return;
 		}
 		
-		for(int i = 1; i <= number; ++i) {
-			
-			
-			if(number == 1) {
-				System.out.print(i);
-			} else if (number == 2) {
-				System.out.print(i + " " + i);
+		for(int i = 1; i <= number; i++) {
+			//Create spaces in each row
+			for(int j = number - i; j >= 1; j-- ) {
+					System.out.print("  ");
 			}
-			
+			//Create decending numbers in each row
+			for(int k = i; k >= 2; k--) {
+				System.out.print(k + " ");
+			}
+			for(int m = 1; m <= i; m++) {
+				System.out.print(m + " ");
+			}
+			System.out.println();
 		}
+		
 		
 		
 	}
