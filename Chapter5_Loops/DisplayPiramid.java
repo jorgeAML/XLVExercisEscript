@@ -21,6 +21,7 @@ public class DisplayPiramid {
 			for(int k = i; k >= 2; k--) {
 				System.out.print(k + " ");
 			}
+			//Create ascending numbers in each row
 			for(int m = 1; m <= i; m++) {
 				System.out.print(m + " ");
 			}
